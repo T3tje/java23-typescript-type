@@ -1,9 +1,9 @@
 export default function Article3() {
     return (
         <article id="drei">
-            <h2>Nachhaltig einkaufen: Ein Leitfaden</h2>
-            <p>Praktische Tipps, um umweltbewusste Einkaufsentscheidungen zu treffen.</p>
-            <p className="rounded-tag">Tag: Nachhaltigkeit</p>
+            <h2>DIY Car Speaker Installations</h2>
+            <p>Step-by-step instructions for installing speakers in your vehicle.</p>
+            <p className="rounded-tag">Tag: Installation</p>
         </article>
 
     )

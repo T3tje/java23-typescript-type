@@ -1,9 +1,9 @@
 export default function Nav() {
     return(
         <nav>
-            <a href="#">Startseite</a>
-            <a href="#">Tipps</a>
-            <a href="#">Erfahrungen</a>
+            <a href="#">Home</a>
+            <a href="#">Upgrades</a>
+            <a href="#">Installations</a>
         </nav>
     )
 }

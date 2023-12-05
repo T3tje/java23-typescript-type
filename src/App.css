@@ -1,11 +1,13 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Courier New', monospace;
   margin: 0;
   padding: 0;
+  background-color: #292929; /* Dunkles Grau */
+  color: #fff;
 }
 
 header {
-  background-color: #4CAF50;
+  background-color: #3498db; /* Blau */
   color: white;
   text-align: center;
   padding: 1em;
@@ -28,25 +30,21 @@ nav a {
 article {
   margin: 20px 0px;
   padding: 5%;
-}
-
-#eins {
-  background-color: #3498db;
-}
-
-#zwei {
-  background-color: #e74c3c;
-}
-
-#drei {
-  background-color: #2ecc71;
+  background-color: #1a1a1a; /* Dunkles Schwarz-Grau */
+  color: #fff;
 }
 
 .sidebar {
   float: right;
   width: 25%;
   padding: 20px;
-  background-color: #f1f1f1;
+  background-color: #333;
+  color: #fff;
+}
+
+.sidebar a {
+  color: #3498db; /* Gleiche Farbe wie Header, aber weniger kräftig */
+  text-decoration: none;
 }
 
 footer {
@@ -59,12 +57,14 @@ footer {
   width: 100%;
 }
 
+footer a {
+  color: #3498db; /* Gleiche Farbe wie Header, aber weniger kräftig */
+  text-decoration: none;
+}
 
-
-/* Stil für den gerundeten Rand */
 .rounded-tag {
   border-radius: 10px;
-  border: 2px solid #333;
+  border: 2px solid #fff;
   padding: 5px;
   display: inline-block;
 }
