@@ -20,11 +20,9 @@ export default function Article1(props:articleProps) {
             <p>{props.p1}</p>
             <p className="rounded-tag">{props.p2}</p>
             <div className={"vote"}>
-                <p className="countNumber">{count}</p>
                 <button onClick={increaseCount}>Vote</button>
+                <p className="countNumber">{count}</p>
             </div>
-
-
         </article>
     )
 }
